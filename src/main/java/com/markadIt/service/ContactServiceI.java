@@ -12,4 +12,10 @@ public interface ContactServiceI {
 	boolean saveContact(Contact contact);
 	List<Contact>  getAllContact();
 	
+	Contact getContactFindById(Integer cid);
+	
+	public boolean UpdateContact(Contact contact);
+	
+	public boolean deleteById(Integer cid);
+	
 }
